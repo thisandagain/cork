@@ -47,7 +47,6 @@ A base URI can be defined during registration by passing the optional `base` par
 ```javascript
 cork.register('dork', {
     base: 'http://api.nerd.com',
-    throttle: 100   // 1 request per 100 milliseconds
 });
 
 cork.request('dork', {
@@ -61,8 +60,7 @@ cork.request('dork', {
 When registering a service, Cork accepts an optional `throttle` parameter which represents a request limit expressed in milliseconds. Any requests that subsequently hit the throttle limit will be queued and processed in FIFO order. For example, let's say that we are working with an API that only accepts 10 requests per second:
 
 ```javascript
-cork.register('dork', {
-    base: 'http://api.nerd.com',
+cork.register('geek', {
     throttle: 100   // 1 request per 100 milliseconds
 });
 ```
