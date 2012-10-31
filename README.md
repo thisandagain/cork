@@ -1,5 +1,4 @@
 ## cork
-#### An API utility belt for request.
 
 [![Build Status](https://secure.travis-ci.org/thisandagain/cork.png)](http://travis-ci.org/thisandagain/cork)
 
