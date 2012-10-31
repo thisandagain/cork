@@ -1,6 +1,8 @@
 ## cork
 #### An API utility belt for request.
 
+[![Build Status](https://secure.travis-ci.org/thisandagain/cork.png)](http://travis-ci.org/thisandagain/cork)
+
 Cork is a minimal layer that sits on top of the [request](https://github.com/mikeal/request) module and adds a few patterns that make working with 3rd party APIs simpler.
 
 ### Installation
@@ -10,7 +12,7 @@ npm install cork
 
 ### Basic Use
 ```javascript
-var cork    = require('cork');
+var cork = require('cork');
 
 // First, let's register a new service with the name "buzz" and a few defaults
 cork.register('buzz', {
