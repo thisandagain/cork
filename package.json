@@ -1,7 +1,7 @@
 {
   "author": "Andrew Sliwinski <andrewsliwinski@acm.org> (http://andrewsliwinski.com)",
   "name": "cork",
-  "description": "API limits are lame... Cork makes them less lame.",
+  "description": "An API utility belt for request.",
   "version": "0.0.1",
   "homepage": "https://github.com/thisandagain/cork",
   "repository": {
@@ -19,7 +19,8 @@
   },
   "devDependencies": {
     "tap": "~0.3.1",
-    "codebux": "~0.1.2"
+    "codebux": "~0.1.2",
+    "nock": "~0.13.5"
   },
   "optionalDependencies": {},
   "engines": {
